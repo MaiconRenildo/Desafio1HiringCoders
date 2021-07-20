@@ -9,9 +9,7 @@ function ResetForm(){
   document.getElementById('name').value=''
   document.getElementById('e-mail').value=''
 }
-function Envio(form){
-  event.preventDefault()
-
+function Envio(evt){
   let storage=localStorage.getItem('dadosCadastro')
   let name=document.getElementById('name').value
   let email=document.getElementById('e-mail').value
@@ -31,5 +29,6 @@ function Envio(form){
     }
 
     ResetForm()
+    event.preventDefault()
   }
 }
