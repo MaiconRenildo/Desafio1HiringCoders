@@ -1,0 +1,124 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+}
+header{
+  position: absolute;
+  top: 0;
+  height: 8vh;
+  width: 100%;
+  background-color: yellow;
+}
+.logo{
+  position: relative;
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin: auto;  
+  align-items: center;
+}
+figure{
+  position: absolute;  
+}
+img{
+  width: 250px;
+}
+h1,h4,p{
+  text-align: center;
+}
+h1{
+  font-size: 28px;
+}
+p{
+  font-size: 10px;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 8vh - 5vh);
+  min-height: calc(100vh - 8vh - 5vh);
+  position: absolute;
+  top: 8vh;
+
+  /*Fundo*/
+  background-image: url(./fundo.jpg);
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: auto;
+}
+.container{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+  height: 45vh;
+  width: calc(40vh - 8vw) ;
+  padding: 0 4vw;
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blanchedalmond;
+  max-height: 400px;
+}
+
+form{
+  text-align: center;
+  width: 100%;
+}
+
+form input{
+  border: 0;
+  width: calc(100% - 40px);
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+form button{
+  border-radius: .5em;
+  padding: 10px;
+  width: 5rem;
+}
+
+footer{
+  display:block;
+  width: 100vw;
+  height: 5vh;
+  position: absolute;
+  bottom: 0;
+  
+  background-color: black;
+  color: blanchedalmond;
+}
+footer a{
+  color: blanchedalmond;
+}
+
+.footer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer h4 a{
+  text-decoration: none;
+}
+
+@media(max-width:680px){
+  img{
+    width: 150px;
+  }
+  .container{
+    height: 35vh;
+    min-height: 200px;
+  }
+}
