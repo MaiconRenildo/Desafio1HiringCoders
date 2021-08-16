@@ -1,6 +1,6 @@
 # Landing Page
 
-<p>Primeiro desafio do HiringCoders. Link da página: https://maiconrenildo.github.io/LandingPage/</p>
+<p>Primeiro desafio do Hiring Coders. Link da página: https://maiconrenildo.github.io/LandingPage/</p>
 
 
 ## Screenshot
