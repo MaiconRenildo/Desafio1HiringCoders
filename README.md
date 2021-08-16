@@ -1,4 +1,4 @@
-# Primeiro desafio HiringCoders
+# Landing Page
 
 <p>Primeiro desafio do HiringCoders. Link da página: https://maiconrenildo.github.io/LandingPage/</p>
 
