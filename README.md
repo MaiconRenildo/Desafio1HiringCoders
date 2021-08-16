@@ -1,6 +1,6 @@
 # Primeiro desafio HiringCoders
 
-<p>Primeiro desafio do HiringCoders. Link da página: https://maiconrenildo.github.io/Desafio1HiringCoders/</p>
+<p>Primeiro desafio do HiringCoders. Link da página: https://maiconrenildo.github.io/LandingPage/</p>
 
 
 ## Screenshot
